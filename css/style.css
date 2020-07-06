@@ -1,0 +1,115 @@
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    
+}
+
+li {
+    padding-left: 40px;
+}
+
+main {
+    background-image: url("../img/main-vsual-nontitle.png");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
+
+.explain {
+    margin-bottom:5rem;
+}
+
+.explain > h1{
+    text-align: center;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contain > p {
+    margin-block-start:0;
+}
+
+
+/* ３つのコース紹介　CSS */
+.cource > h1 {
+    text-align: center;
+}
+
+.cource-contain {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.cource-contain > div > img {
+    width: 18rem;
+}
+
+
+/* footerのCSS */
+
+.footer {
+    text-align: center;
+}
+    
+.form {
+    padding: 20px;
+}
+
+.form > p {
+    margin-bottom: 0;
+}
+
+input[type="text"].request-form {
+    width: 500px;
+    padding:15px;
+    border-radius: 25px;
+    border-style: solid;
+
+}
+
+
+/* ボタンcss */
+.request-button {
+    background-color: rgb(207, 75, 97);
+    width:400px; 
+    padding: 15px; 
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 100%;
+    border-color: transparent;
+}
+
+
+
+
+
+
